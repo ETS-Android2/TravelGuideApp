@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:id="@+id/addaya_pic"
+        android:layout_width="296dp"
+        android:layout_height="148dp"
+        android:src="@drawable/addayaport" />
+    <TextView
+        android:id="@+id/addaya_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="	Port of Addaya, Minorca, Spain." />
+    <Button
+        android:id="@+id/fav4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="74dp"
+        android:layout_marginTop="22dp"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview4"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addaya_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/barcelona_pic"
+        android:layout_width="288dp"
+        android:layout_height="149dp"
+        android:src="@drawable/barcelona" />
+    <TextView
+        android:id="@+id/barcelona_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	Torre Agbar skyscraper at night in Barcelona" />
+    <Button
+        android:id="@+id/fav5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/barcelona_des"
+        android:layout_alignRight="@+id/barcelona_des"
+        android:layout_below="@+id/barcelona_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview4"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/barcelona_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/ibiza_pic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ibiza" />
+    <TextView
+        android:id="@+id/ibiza_des"
+        android:layout_width="282dp"
+        android:layout_height="179dp"
+        android:text="Ibiza is one of the Balearic islands, an archipelago of Spain in the Mediterranean Sea. It&apos;s well known for the lively nightlife in Ibiza Town and Sant Antoni, where major European nightclubs have summer outposts. It’s also home to quiet villages, yoga retreats and beaches, from Platja d&apos;en Bossa, lined with hotels, bars and shops, to quieter sandy coves backed by pine-clad hills found all around the coast." />
+    <Button
+        android:id="@+id/fav6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ibiza_des"
+        android:layout_alignRight="@+id/ibiza_des"
+        android:layout_below="@+id/ibiza_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview5"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ibiza_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/mallorca_pic"
+        android:layout_width="298dp"
+        android:layout_height="90dp"
+        android:src="@drawable/mallorca" />
+    <TextView
+        android:id="@+id/mallorca_des"
+        android:layout_width="254dp"
+        android:layout_height="34dp"
+        android:layout_weight="0.00"
+        android:text="•	Mallorca (Majorca) is one of Spain&apos;s Balearic Islands in the Mediterranean. It&apos;s known for beach resorts, sheltered coves, limestone mountains and Roman and Moorish remains. " />
+    <Button
+        android:id="@+id/fav7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mallorca_des"
+        android:layout_alignRight="@+id/mallorca_des"
+        android:layout_below="@+id/mallorca_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview6"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mallorca_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/alhambra_pic"
+        android:layout_width="302dp"
+        android:layout_height="128dp"
+        android:src="@drawable/alhambra" />
+    <TextView
+        android:id="@+id/alhambra_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="•	The Alhambra is a palace and fortress complex located in Granada, Andalusia, Spain" />
+
+    <Button
+        android:id="@+id/fav8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alhambra_des"
+        android:layout_alignRight="@+id/alhambra_des"
+        android:layout_below="@+id/alhambra_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview7"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/alhambra_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/parkuell_pic"
+        android:layout_width="298dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/parkuell" />
+    <TextView
+        android:id="@+id/parkuell_des"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+    <Button
+        android:id="@+id/fav9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/parkuell_des"
+        android:layout_alignRight="@+id/parkuell_des"
+        android:layout_below="@+id/parkuell_des"
+        android:text="AddToFavorites" /> android:text="•	The Park Güell is a public park system composed of gardens and architectonic elements located on Carmel Hill, in Barcelona, Catalonia, Spain." />
+    <ScrollView
+        android:id="@+id/scrollview8"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/parkuell_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</LinearLayout>

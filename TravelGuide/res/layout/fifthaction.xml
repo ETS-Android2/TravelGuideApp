@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/train"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:text="Train"
+        android:textColorHint="@android:color/black" />
+    <ScrollView
+        android:id="@+id/scrollview15"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/train_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="While Spain’s state-run rail network may not be the most efficient in Europe, it serves its purpose. RENFE, which runs the rails, has improved its timeliness in recent years. Madrid serves as the heart of the system, with service radiating to major cities in all directions." />
+    <ScrollView
+        android:id="@+id/scrollview16"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/bus"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:text="Bus" />
+    <ScrollView
+        android:id="@+id/scrollview17"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/bus_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Almost 200 cities and towns are served by Spain’s excellent bus network. Intercity buses are clean and safe, making them a stellar option for all travelers, not just those on a budget." />
+    <ScrollView
+        android:id="@+id/scrollview18"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/car"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:text="Renting a Car in Spain" />
+    <ScrollView
+        android:id="@+id/scrollview19"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/car_des"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:text="International car rental agencies are widely available in Spain; they include Budget, Hertz, Avis and Thrifty. European agencies, such as Europcar, and Spanish companies, including Pepecar, are also available." />
+    <ScrollView
+        android:id="@+id/scrollview20"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/taxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spain by Taxi" />
+    <ScrollView
+        android:id="@+id/scrollview21"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/taxi_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Taxis are a reasonably priced option in cities or if you need transport from a town to a rural destination. In general, Spanish taxi drivers are trustworthy and do not make a habit of bilking tourists." />
+    <ScrollView
+        android:id="@+id/scrollview22"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</LinearLayout>

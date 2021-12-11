@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/Valencia_pic"
+        android:layout_width="393dp"
+        android:layout_height="98dp"
+        android:layout_weight="1.84"
+        android:src="@drawable/valencia" />
+
+    <TextView
+        android:id="@+id/valencia_des"
+
+
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.84"
+        android:text="The Júcar River flowing past a 14th-century castle at Cofrentes, Valencia, Spain." />
+
+
+    <Button
+        android:id="@+id/fav1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="74dp"
+        android:layout_marginTop="22dp"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview1"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Valencia_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/Temple"
+        android:layout_width="445dp"
+        android:layout_height="235dp"
+        android:src="@drawable/temple" />
+
+
+    <TextView
+        android:id="@+id/temple_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.20"
+        android:text="Antoni Gaudíapos;s Expiatory Temple of the Holy Family (Sagrada Família), Barcelona, Spain." />
+
+    <Button
+        android:id="@+id/fav2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/temple_des"
+        android:layout_alignRight="@+id/temple_des"
+        android:layout_below="@+id/temple_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview2"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Temple"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/myrtles_pic"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/myrtles" />
+
+    <TextView
+        android:id="@+id/myrtles_des"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="Court of the Myrtles in the Alhambra, Granada, Spain, 13th–14th century"
+        android:textSize="4pt" />
+    <Button
+        android:id="@+id/fav3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/myrtles_des"
+        android:layout_alignRight="@+id/myrtles_des"
+        android:layout_below="@+id/myrtles_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview3"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/myrtles_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+</LinearLayout>

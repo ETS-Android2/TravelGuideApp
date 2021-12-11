@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/euro_pic"
+        android:layout_width="159dp"
+        android:layout_height="104dp"
+        android:src="@drawable/hoteleurostarspalace" />
+    <TextView
+        android:id="@+id/euro_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	Hotel Eurostars Palacio Buenavista" />
+    <Button
+        android:id="@+id/fav10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="74dp"
+        android:layout_marginTop="22dp"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollvie10"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/euro_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/exegran_pic"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exegranhotel" />
+    <TextView
+        android:id="@+id/exegran_des"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:text="•	Exe Gran Hotel Solucar" />
+    <Button
+        android:id="@+id/fav11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exegran_des"
+        android:layout_alignRight="@+id/exegran_des"
+        android:layout_below="@+id/exegran_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview11"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/exegran_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/saylu_pic"
+        android:layout_width="107dp"
+        android:layout_height="104dp"
+        android:src="@drawable/hotelsaylu" />
+    <TextView
+        android:id="@+id/saylu_des"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:text="•	Hotel Saylu" />
+    <Button
+        android:id="@+id/fav12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/saylu_des"
+        android:layout_alignRight="@+id/saylu_des"
+        android:layout_below="@+id/saylu_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview12"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/saylu_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/castil_pic"
+        android:layout_width="177dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/castillahotel" />
+    <TextView
+        android:id="@+id/castil_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	Castilla Termal Balneario de Olmedo" />
+    <Button
+        android:id="@+id/fav13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/castil_des"
+        android:layout_alignRight="@+id/castil_des"
+        android:layout_below="@+id/castil_des"
+        android:text="AddToFavorites" />
+    <ScrollView
+        android:id="@+id/scrollview12"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/castil_pic"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+</LinearLayout>
